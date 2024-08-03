@@ -174,5 +174,5 @@ const myFavoriteFootballTeam = {
       };
 
       Object.freeze(myFavoriteFootballTeam)
-
-      const sport = myFavoriteFootballTeam.sport;
+/* Access object key with deconstruction method */
+      const { sport, team, year, players } = myFavoriteFootballTeam;
