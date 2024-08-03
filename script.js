@@ -13,6 +13,15 @@ const myFavoriteFootballTeam = {
     isWorldCupWinner:true,
     headCoach: {
         coachName:"Carlos Bilardo",
-        matches: 7,
-    }
+        matches: 7
+    },
+   player:  [
+        {
+            name: "Sergio Almirón",
+            position: "forward",
+            number: 1,
+            isCaptain: false,
+            nickname: null
+        }
+    ]
 };
