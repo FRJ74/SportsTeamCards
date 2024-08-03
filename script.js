@@ -177,3 +177,6 @@ const myFavoriteFootballTeam = {
 /* Access object key with deconstruction method */
       const { sport, team, year, players } = myFavoriteFootballTeam;
       const {coachName} = myFavoriteFootballTeam.headCoach;
+
+/* Dispaly the team's information on the screen*/
+typeOfSport.textContent = sport;      
