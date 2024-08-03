@@ -176,3 +176,4 @@ const myFavoriteFootballTeam = {
       Object.freeze(myFavoriteFootballTeam)
 /* Access object key with deconstruction method */
       const { sport, team, year, players } = myFavoriteFootballTeam;
+      const {coachName} = myFavoriteFootballTeam.headCoach;
