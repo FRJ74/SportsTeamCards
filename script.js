@@ -179,4 +179,7 @@ const myFavoriteFootballTeam = {
       const {coachName} = myFavoriteFootballTeam.headCoach;
 
 /* Dispaly the team's information on the screen*/
-typeOfSport.textContent = sport;      
+typeOfSport.textContent = sport;
+teamName.textContent = team;
+worldCupYear.textContent = year;
+headCoach.textContent = coachName;      
