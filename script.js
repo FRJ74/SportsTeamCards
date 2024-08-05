@@ -186,5 +186,7 @@ headCoach.textContent = coachName;
 
 /*  show player cards based on the user selections  */
 const setPlayerCards = (arr = players) => {
-  playerCards.innerHTML += arr.map(({name, position, number, isCaptain, nickname}) => {})
+  playerCards.innerHTML += arr.map(({name, position, number, isCaptain, nickname}) => {
+    `<div class="player-card">${isCaptain ? "(Captain)" : ""} ${name} </div>`
+  })
 };
