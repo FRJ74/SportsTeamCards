@@ -182,4 +182,9 @@ const myFavoriteFootballTeam = {
 typeOfSport.textContent = sport;
 teamName.textContent = team;
 worldCupYear.textContent = year;
-headCoach.textContent = coachName;      
+headCoach.textContent = coachName;   
+
+/*  show player cards based on the user selections  */
+const setPlayerCards = (arr = players) => {
+  playerCards.innerHTML += arr.map(({name, position, number, isCaptain, nickname}) => {})
+};
