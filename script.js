@@ -199,4 +199,9 @@ const setPlayerCards = (arr = players) => {
 };
 
 /* Create a function that will detect when a user makes a selection from the playersDropdownList */
-playersDropdownList.addEventListener("change", () => {} );
+playersDropdownList.addEventListener("change", (e) => {
+  playerCards.innerHTML="";
+  switch(e.target.value) {
+    case "nickname":
+  }
+} );
