@@ -193,5 +193,10 @@ const setPlayerCards = (arr = players) => {
         <p>Number: ${number}</p>
         <p>Nickname:${nickname ? nickname : "N/A"}</p>
     </div>`
-  })
+  }
+)
+.join("");
 };
+
+/* Create a function that will detect when a user makes a selection from the playersDropdownList */
+playersDropdownList.addEventListener("change", () => {} );
